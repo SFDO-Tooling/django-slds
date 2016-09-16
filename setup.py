@@ -8,7 +8,7 @@ try:
 except ImportError:
     from distutils.core import setup
 
-version = '0.1.0'
+version = '0.1.1'
 
 if sys.argv[-1] == 'publish':
     try:
@@ -37,7 +37,7 @@ setup(
     long_description=readme + '\n\n' + history,
     author='Jason Lantz',
     author_email='jlantz@salesforce.com',
-    url='https://github.com/jlantz/django-slds',
+    url='https://github.com/SalesforceFoundation/django-slds',
     packages=[
         'django_slds',
     ],
