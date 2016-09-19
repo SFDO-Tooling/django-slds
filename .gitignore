@@ -48,3 +48,6 @@ docs/_build
 
 # Local virtualenv
 venv
+
+# OS X .DS_Store
+.DS_Store
